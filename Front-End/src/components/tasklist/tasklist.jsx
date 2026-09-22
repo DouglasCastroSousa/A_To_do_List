@@ -9,36 +9,64 @@ import { TiPencil } from "react-icons/ti";
 export default function TaskList() {
   return (
     <div className="TaskListDiv">
-      <div className="TaskListBox">
-        <div className="Task">
-          <div className="TaskIconTitle">
-            <FaCalendarDay />
-            <h3>TaskName</h3>
-            <div className="ChangeIconTitle">
-              <TiPencil />
-            </div>
+      <div className="TaskListBoxone">
+        <div id="TaskListStart">
+          <div id="Title">
+            Crie aqui suas atividades para o dia a dia!
           </div>
-
-          <hr />
-
-          <textarea
-            name="taskdescription"
-            id="taskdescription"
-            placeholder="Task Description here, you can write anything"
-          ></textarea>
-          <button className="TaskBtn">Salvar</button>
+          <div id="CreateTask">
+            <button>Create Task</button>
+          </div>
         </div>
-        <div className="Task">2</div>
-        <div className="Task">3</div>
-        <div className="Task">4</div>
-        <div className="Task">5</div>
-        <div className="Task">6</div>
-        <div className="Task">7</div>
-        <div className="Task">8</div>
-        <div className="Task">9</div>
-        <div className="Task">10</div>
-        <div className="Task">10</div>
-        <div className="Task">10</div>
+
+        <div className="TaskListBox">
+          <div className="Task">
+            <div className="TaskIconTitle">
+              <FaCalendarDay />
+              <h3>TaskName</h3>
+              <div className="ChangeIconTitle">
+                <TiPencil />
+              </div>
+            </div>
+
+            <hr />
+
+            <textarea
+              name="taskdescription"
+              id="taskdescription"
+              placeholder="Task Description here, you can write anything"
+            ></textarea>
+            <button className="TaskBtn">Salvar</button>
+          </div>
+          <div className="Task">
+            <div className="TaskIconTitle">
+              <FaCalendarDay />
+              <h3>TaskName</h3>
+              <div className="ChangeIconTitle">
+                <TiPencil />
+              </div>
+            </div>
+
+            <hr />
+
+            <textarea
+              name="taskdescription"
+              id="taskdescription"
+              placeholder="Task Description here, you can write anything"
+            ></textarea>
+            <button className="TaskBtn">Salvar</button>
+          </div>
+          <div className="Task">3</div>
+          <div className="Task">4</div>
+          <div className="Task">5</div>
+          <div className="Task">6</div>
+          <div className="Task">7</div>
+          <div className="Task">8</div>
+          <div className="Task">9</div>
+          <div className="Task">10</div>
+          <div className="Task">10</div>
+          <div className="Task">10</div>
+        </div>
       </div>
     </div>
   );
