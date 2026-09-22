@@ -1,0 +1,28 @@
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ddefff;
+  width: 100%;
+  min-width: 500px;
+}
+
+.Logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Logo, .Logo h2{
+    font-size: 30px;
+}
+
+.MoreOptions {
+  display: flex;
+  gap: 20px;
+}
+
+header h2 {
+  font-size: 30px;
+}
