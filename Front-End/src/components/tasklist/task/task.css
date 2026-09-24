@@ -1,0 +1,48 @@
+.Task {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: fit-content;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.TaskIconTitle {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.ChangeIconTitle {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ChangeIconTitle:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 10px;
+}
+.Task hr {
+  margin: 5px 0;
+}
+.TaskBtn {
+  background-color: rgba(91, 244, 160, 0.837);
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.TaskBtn:hover {
+  filter: brightness(0.9);
+}
+.Task textarea {
+  background-color: rgb(230, 228, 228);
+  width: 100%;
+  min-height: 100px;
+  max-height: 200px;
+  border-radius: 10px;
+  padding: 5px;
+}
